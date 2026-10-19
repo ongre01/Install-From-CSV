@@ -31,11 +31,11 @@ Development,GnuWin32 Make,GnuWin32.Make,3.81,GnuWin32: Make-3.81,WinGet,WinGet �
 Development,SSHFS-Win 2021,SSHFS-Win.SSHFS-Win,3.5.20357,SSHFS-Win 2021 (x64),WinGet,기존 3.5.20357 패키지 확인. WinFsp 먼저 설치/호환성 확인
 Development,SSHFS-Win Manager,evsar3.sshfs-win-manager,1.3.1,SSHFS-Win Manager,WinGet,기존 1.3.1 패키지 확인. SSHFS-Win 설치 후 구성/연결 프로필 복원
 Development,GitTower GitFlowNext,GitTower.GitFlowNext,2.0.0,GitTower GitFlowNext,WinGet,공식 GitTower 저장소 WinGet 설치 명시. GitFlow 설정은 별도
-Manual,HOP,,0.4.5,HOP,Manual,동일 앱의 WinGet 패키지 ID 미확인. 공식 golbin/hop Releases의 Windows MSI로 수동 설치 가능
 Development,Orca (stablyai),StablyAI.Orca,1.4.224,Orca,WinGet,WinGet 패키지 확인. 동일 앱인지 설치 후 실행/계정 확인
 Optional,IObit Unlocker,IObit.IObitUnlocker,1.3.0.12,IObit Unlocker,WinGet,기존 1.3.0.12 WinGet 패키지 확인. 선택 설치 권장
+Optional,Microsoft 마우스 키보드 센터,Microsoft.MouseandKeyboardCenter,14.41.137.0,Microsoft 마우스 키보드 센터,WinGet,기존 14.41.137.0 WinGet 패키지 확인. 주변기기 필요한 경우 설치
 Manual,spacedesk Windows DRIVER,Datronicsoft.SpacedeskDriver.Server,2.2.33.0,spacedesk Windows DRIVER,Manual,WinGet ID 존재. 공개 인덱스 버전 1.0.65.0 vs 기존 2.2.33.0 불일치로 자동 전환 보류; 새 PC 드라이버 호환성 확인 후 선택 설치
 Manual,Token Slayer,,0.30.10,Token Slayer 0.30.10,Manual,데스크톱 앱과 일치하는 WinGet 패키지 ID 미확인. 기존 설치/공식 배포 경로 확인 후 수동 설치
-Optional,Microsoft 마우스 키보드 센터,Microsoft.MouseandKeyboardCenter,14.41.137.0,Microsoft 마우스 키보드 센터,WinGet,기존 14.41.137.0 WinGet 패키지 확인. 주변기기 필요한 경우 설치
+Manual,HOP,,0.4.5,HOP,Manual,동일 앱의 WinGet 패키지 ID 미확인. 공식 golbin/hop Releases의 Windows MSI로 수동 설치 가능
 Manual,Qt Creator / Qt,,4.11.0,Qt,Manual,Qt Creator IDE만 TheQtCompanyLtd.QtCreator로 WinGet 설치 가능. Qt Framework/Kit/MSVC 설정은 별도이므로 통합 항목은 Manual 유지
 Manual,Visual Studio Build Tools 2022,Microsoft.VisualStudio.2022.BuildTools,17.14.42,Visual Studio Build Tools 2022,Manual,WinGet ID 존재. MSVC C++ 워크로드/컴포넌트 재현에는 .vsconfig 및 winget --override 구성 필요; 자동 전환 보류
