@@ -1,0 +1,41 @@
+﻿Group,Name,WingetId,SourceVersion,OriginalName,InstallMethod,Note
+Basic,7-Zip,7zip.7zip,26.04.00.0,7-Zip 26.04 (x64 edition),WinGet,압축 프로그램
+Basic,Bandizip,Bandisoft.Bandizip,7.47,Bandizip,WinGet,압축 프로그램
+Basic,Google Chrome,Google.Chrome,155.0.8059.82,Google Chrome,WinGet,웹 브라우저
+Basic,Everything,voidtools.Everything,1.4.1.1032,Everything 1.4.1.1032 (x64),WinGet,파일 검색
+Basic,WinMerge,WinMerge.WinMerge,2.16.58.2,"WinMerge x64 (Current user, 64-bit)",WinGet,파일 비교
+Basic,Notepad++,Notepad++.Notepad++,8.9.8.1,Notepad++ (64-bit x64),WinGet,텍스트 편집기
+Basic,TreeSize Free,JAMSoftware.TreeSize,4.8.1,TreeSize Free V4.8.1,WinGet,Free 에디션 확인
+Basic,PowerToys,Microsoft.PowerToys,0.101.2362.0,PowerToys (Preview),WinGet,설정은 별도 이동
+Basic,KakaoTalk,Kakao.KakaoTalk,26.8.2.5324,카카오톡,WinGet,로그인 및 대화 백업은 별도
+Basic,draw.io,JGraph.Draw,32.4.1.0,draw.io.draw.ioDiagrams,WinGet,다이어그램
+Basic,MPC-BE,MPC-BE.MPC-BE,1.9.2,MPC-BE x64 1.9.2,WinGet,미디어 플레이어
+Basic,Notion,Notion.Notion,7.37.1,Notion 7.37.1,WinGet,워크스페이스 로그인 별도
+Basic,Windows Terminal,Microsoft.WindowsTerminal,1.25.2733.0,Microsoft.WindowsTerminal,WinGet,Windows에 기본 포함 가능
+Development,Git,Git.Git,2.56.0.2,Git,WinGet,설정과 SSH 키는 별도 이전
+Development,VS Code,Microsoft.VisualStudioCode,1.142.0,Microsoft Visual Studio Code (User),WinGet,확장/설정은 별도 이전
+Development,DB Browser for SQLite,DBBrowserForSQLite.DBBrowserForSQLite,3.13.1,DB Browser for SQLite,WinGet,
+Development,Graphviz,Graphviz.Graphviz,16.1.0,Graphviz,WinGet,
+Development,Doxygen,DimitriVanHeesch.Doxygen,1.18.0,doxygen 1.18.0,WinGet,
+Development,Python 3.12,Python.Python.3.12,3.12.10150.0,Python 3.12.10 (64-bit),WinGet,3.15와 혼동하지 않도록 고정된 주 버전 ID
+Development,MobaXterm,Mobatek.MobaXterm,26.5.0.5542,MobaXterm,WinGet,세션/비밀번호 별도
+Development,Ollama,Ollama.Ollama,0.40.5,Ollama version 0.40.5,WinGet,모델 데이터 별도 이전
+Development,SourceTree,Atlassian.Sourcetree,3.4.32,SourceTree,WinGet,저장소/계정 설정 별도
+Development,Tailscale,Tailscale.Tailscale,1.104.1,Tailscale,WinGet,장치 재인증 필요
+Development,Tera Term 5,TeraTermProject.teraterm5,5.7.1,Tera Term 5.7.1 x64,WinGet,5.x용 ID 사용
+Development,WinFsp,WinFsp.WinFsp,2.1.25156,WinFsp 2025,WinGet,재부팅이 필요할 수 있음
+Optional,Parsec,Parsec.Parsec,150-104a,Parsec,WinGet,로그인 및 가상 USB 드라이버 별도
+Optional,iCloud,Apple.iCloud,15.10.39.0,AppleInc.iCloud,WinGet,Store 버전과 설치 경로 다를 수 있음
+Optional,Claude,Anthropic.Claude,2.37337.1.0,Claude,WinGet,스토어 앱 버전과 별개로 설치 가능
+Development,GnuWin32 Make,GnuWin32.Make,3.81,GnuWin32: Make-3.81,WinGet,WinGet 패키지 버전 3.81 확인. 레거시 빌드 스크립트 의존성 확인 필요
+Development,SSHFS-Win 2021,SSHFS-Win.SSHFS-Win,3.5.20357,SSHFS-Win 2021 (x64),WinGet,기존 3.5.20357 패키지 확인. WinFsp 먼저 설치/호환성 확인
+Development,SSHFS-Win Manager,evsar3.sshfs-win-manager,1.3.1,SSHFS-Win Manager,WinGet,기존 1.3.1 패키지 확인. SSHFS-Win 설치 후 구성/연결 프로필 복원
+Development,GitTower GitFlowNext,GitTower.GitFlowNext,2.0.0,GitTower GitFlowNext,WinGet,공식 GitTower 저장소 WinGet 설치 명시. GitFlow 설정은 별도
+Manual,HOP,,0.4.5,HOP,Manual,동일 앱의 WinGet 패키지 ID 미확인. 공식 golbin/hop Releases의 Windows MSI로 수동 설치 가능
+Development,Orca (stablyai),StablyAI.Orca,1.4.224,Orca,WinGet,WinGet 패키지 확인. 동일 앱인지 설치 후 실행/계정 확인
+Optional,IObit Unlocker,IObit.IObitUnlocker,1.3.0.12,IObit Unlocker,WinGet,기존 1.3.0.12 WinGet 패키지 확인. 선택 설치 권장
+Manual,spacedesk Windows DRIVER,Datronicsoft.SpacedeskDriver.Server,2.2.33.0,spacedesk Windows DRIVER,Manual,WinGet ID 존재. 공개 인덱스 버전 1.0.65.0 vs 기존 2.2.33.0 불일치로 자동 전환 보류; 새 PC 드라이버 호환성 확인 후 선택 설치
+Manual,Token Slayer,,0.30.10,Token Slayer 0.30.10,Manual,데스크톱 앱과 일치하는 WinGet 패키지 ID 미확인. 기존 설치/공식 배포 경로 확인 후 수동 설치
+Optional,Microsoft 마우스 키보드 센터,Microsoft.MouseandKeyboardCenter,14.41.137.0,Microsoft 마우스 키보드 센터,WinGet,기존 14.41.137.0 WinGet 패키지 확인. 주변기기 필요한 경우 설치
+Manual,Qt Creator / Qt,,4.11.0,Qt,Manual,Qt Creator IDE만 TheQtCompanyLtd.QtCreator로 WinGet 설치 가능. Qt Framework/Kit/MSVC 설정은 별도이므로 통합 항목은 Manual 유지
+Manual,Visual Studio Build Tools 2022,Microsoft.VisualStudio.2022.BuildTools,17.14.42,Visual Studio Build Tools 2022,Manual,WinGet ID 존재. MSVC C++ 워크로드/컴포넌트 재현에는 .vsconfig 및 winget --override 구성 필요; 자동 전환 보류
