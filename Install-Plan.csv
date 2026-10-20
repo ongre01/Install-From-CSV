@@ -34,7 +34,7 @@ Development,GitTower GitFlowNext,GitTower.GitFlowNext,2.0.0,GitTower GitFlowNext
 Development,Orca (stablyai),StablyAI.Orca,1.4.224,Orca,WinGet,WinGet 패키지 확인. 동일 앱인지 설치 후 실행/계정 확인,,
 Optional,IObit Unlocker,IObit.IObitUnlocker,1.3.0.12,IObit Unlocker,WinGet,기존 1.3.0.12 WinGet 패키지 확인. 선택 설치 권장,,
 Optional,Microsoft 마우스 키보드 센터,Microsoft.MouseandKeyboardCenter,14.41.137.0,Microsoft 마우스 키보드 센터,WinGet,기존 14.41.137.0 WinGet 패키지 확인. 주변기기 필요한 경우 설치,,
-Manual,spacedesk Windows DRIVER,Datronicsoft.SpacedeskDriver.Server,2.2.33.0,spacedesk Windows DRIVER,Manual,WinGet ID 존재. 공개 인덱스 버전 1.0.65.0 vs 기존 2.2.33.0 불일치로 자동 전환 보류; 새 PC 드라이버 호환성 확인 후 선택 설치,,
+Optional,spacedesk Windows DRIVER,Datronicsoft.SpacedeskDriver.Server,2.2.33.0,spacedesk Windows DRIVER,WinGet,WinGet 2.2.33.0 확인(2026-10-20). 디스플레이 드라이버 설치로 관리자 권한/재부팅 필요할 수 있음. 새 PC 드라이버 호환성 확인,,
 Manual,Token Slayer,,0.30.10,Token Slayer 0.30.10,Manual,데스크톱 앱과 일치하는 WinGet 패키지 ID 미확인. 기존 설치/공식 배포 경로 확인 후 수동 설치,,
 Optional,HOP,,0.4.5,HOP,MSI,HWP/HWPX 뷰어·편집기. WinGet 패키지 없음. 공식 golbin/hop 최신 릴리즈 MSI(미서명)를 GitHub API digest로 검증 후 설치,https://github.com/golbin/hop/releases/latest/download/HOP-windows-x64.msi,
 Manual,Qt Creator / Qt,,4.11.0,Qt,Manual,Qt Creator IDE만 TheQtCompanyLtd.QtCreator로 WinGet 설치 가능. Qt Framework/Kit/MSVC 설정은 별도이므로 통합 항목은 Manual 유지,,
