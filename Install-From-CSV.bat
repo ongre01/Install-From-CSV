@@ -20,7 +20,7 @@ if not exist "%~dp0Install-Plan.csv" (
     exit /b 1
 )
 
-echo [INFO] Starting WinGet installation from CSV...
+echo [INFO] Starting WinGet/MSI installation from CSV...
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Install-From-CSV.ps1" -Install
 set "RC=%ERRORLEVEL%"
 
